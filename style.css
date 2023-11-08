@@ -1,0 +1,100 @@
+
+
+body{
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    padding: 5px 3px;
+    width: 100%;
+    background:#2F3129;
+    border-bottom: 2px solid white;
+}
+
+.header{
+    text-align: center;
+    color: rgb(242, 231, 12);
+}
+.main{
+    display: flex;
+}
+
+.main-info{
+    display: flex;
+    padding: 15px 15px;
+    margin-top: 80px;
+    justify-content: center;
+    width: 35%;
+    height: 150px;
+}
+
+.main-info ul li {
+    list-style: none;
+    
+
+}
+
+.main-info ul li .bx{
+    display: fixed;
+    padding-right: 5px;
+    font-size: 25px;
+    align-items: center;
+}
+
+.image{
+    padding: 30px 50px;
+}
+
+img{
+    border-radius: 15px;
+    box-shadow: 1px 1px 15px 1px;
+}
+
+.bx{
+    position: relative;
+    right: 7px;
+    top: 5px;
+}
+
+.education-main{
+    padding-left: 50px;
+}
+
+.education ul li {
+    margin-left: 75px;
+    padding-top: 5px;
+}
+
+
+.exp{
+    padding-left: 50px;
+}
+
+.experience ul li {
+    margin-left: 75px;
+    padding-top: 5px;
+}
+
+.ski{
+    padding-left: 50px;
+}
+
+.sk ul li {
+    margin-left: 75px;
+    padding-top: 5px;  
+}
+
+.footer{
+    padding-left: 50px;
+}
+
+.footer p {
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+}
